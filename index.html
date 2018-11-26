@@ -1,19 +1,48 @@
 <html>
     <head>
         <title> Some notes </title>
+        <style>
+                body {
+                    background-color: linen;
+                }
+                
+                h1 {
+                    color: maroon;
+                    margin-left: 40px;
+                } 
+                nav ul {
+                    background-color: black;
+                    display:flex;
+                }
+                nav li {
+                    margin-right: 20px;
+                    padding: 10px;
+                }
+                nav a {
+                    color:white;
+                    text-decoration: none;
+                }
+                a.current-item {
+                    text-decoration: underline
+                }
+                .big a {
+                   font-size: 200%;
+                }
+        </style>
     </head>
     <body>
-        <nav> 
+        <nav>
             <ul>
-                <a href="./index.html">home</a>
+                <li>
+                    <a class="current-item" href="./index.html">home</a>
+                </li>
+                <li class="bigo">
+                    <a href="./about.html">about</a>
+                </li>
+                <li>
+                    <a href="./links.html">links</a>
+                </li>
             </ul>
-            <ul>
-                <a href="./about.html">about</a>
-            </ul>
-            <ul>
-                <a href="./links.html">links</a>
-            </ul>
-            
         </nav>
         <h1> Getting started <h1>
             <ul> 
